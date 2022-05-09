@@ -12,4 +12,5 @@ It must use the bubble sort methodology (using #sort would be pretty pointless, 
 - An other thing that seems interesting is how to make sure you're done. Probably gotta keep a tracking value.
 
 # Results and Evaluation
-To be added later.
+- slice rotate and insert were exactly what i needed. I fought a bit with the indexes, ended up going with the wikipedia style version of just defining an number for length and iterating until that number. At least that way you can shorten the cycle every time you've gone through the whole array.
+- tracking value it is.

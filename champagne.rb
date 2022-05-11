@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def bubble_sort(list, bubbled = true, length = list.length - 2)
+def bubble_sort(list, length = list.length - 2, bubbled: true)
   while bubbled == true
     bubbled = false
     (0..length).each do |i|
